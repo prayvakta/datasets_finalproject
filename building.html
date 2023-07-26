@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Permits</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="building.js" defer></script>
+</head>
+<body>
+    <h1>Building Permits</h1>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="crimes.html">Crime Stats</a>
+        <a href="trafficcameras.html">Traffic Cameras</a>
+        <a href="trafficincidents.html">Traffic Incidents</a>
+    </nav>
+    <hr>
+    <div id="buildingpermits">
+        <h2>Building Permits</h2>
+        <label> Note: All building permits for this dataset start with BP2023-</label>
+        <br>
+        <br>
+        <br>
+        <label>Enter the Permit Number: </label><input type="text" id="searchpermit" size="13" value="BP2023-"/>
+
+        <table id="buildingresults">
+
+        </table>
+
+    </div>
+    
+</body>
+</html>
